@@ -1,0 +1,995 @@
+{
+  "report": {
+    "playerTotals": {
+      "a1": {
+        "disparos": 5,
+        "pasesCompletados": 6,
+        "pasesErrados": 3,
+        "disparosAlArco": 2,
+        "disparosErrados": 3,
+        "goles": 0,
+        "asistencias": 1,
+        "intercepciones": 1,
+        "robosDePelota": 1,
+        "regatesExitosos": 3,
+        "regatesFallidos": 0,
+        "golesEvitados": 1,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "a2": {
+        "disparos": 3,
+        "pasesCompletados": 6,
+        "pasesErrados": 4,
+        "disparosAlArco": 1,
+        "disparosErrados": 2,
+        "goles": 1,
+        "asistencias": 0,
+        "intercepciones": 1,
+        "robosDePelota": 3,
+        "regatesExitosos": 2,
+        "regatesFallidos": 1,
+        "golesEvitados": 0,
+        "atajadas": 1,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "a3": {
+        "disparos": 0,
+        "pasesCompletados": 6,
+        "pasesErrados": 1,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 3,
+        "robosDePelota": 1,
+        "regatesExitosos": 0,
+        "regatesFallidos": 1,
+        "golesEvitados": 0,
+        "atajadas": 2,
+        "burradas": 2,
+        "faltas": 0
+      },
+      "a4": {
+        "disparos": 3,
+        "pasesCompletados": 13,
+        "pasesErrados": 5,
+        "disparosAlArco": 3,
+        "disparosErrados": 0,
+        "goles": 1,
+        "asistencias": 0,
+        "intercepciones": 2,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 2,
+        "golesEvitados": 0,
+        "atajadas": 2,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "a5": {
+        "disparos": 3,
+        "pasesCompletados": 8,
+        "pasesErrados": 1,
+        "disparosAlArco": 2,
+        "disparosErrados": 1,
+        "goles": 0,
+        "asistencias": 1,
+        "intercepciones": 1,
+        "robosDePelota": 3,
+        "regatesExitosos": 3,
+        "regatesFallidos": 1,
+        "golesEvitados": 1,
+        "atajadas": 1,
+        "burradas": 1,
+        "faltas": 0
+      },
+      "a6": {
+        "disparos": 6,
+        "pasesCompletados": 8,
+        "pasesErrados": 2,
+        "disparosAlArco": 4,
+        "disparosErrados": 2,
+        "goles": 1,
+        "asistencias": 0,
+        "intercepciones": 1,
+        "robosDePelota": 1,
+        "regatesExitosos": 6,
+        "regatesFallidos": 1,
+        "golesEvitados": 1,
+        "atajadas": 1,
+        "burradas": 1,
+        "faltas": 0
+      },
+      "a7": {
+        "disparos": 2,
+        "pasesCompletados": 5,
+        "pasesErrados": 2,
+        "disparosAlArco": 1,
+        "disparosErrados": 1,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 4,
+        "robosDePelota": 2,
+        "regatesExitosos": 2,
+        "regatesFallidos": 1,
+        "golesEvitados": 1,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b1": {
+        "disparos": 5,
+        "pasesCompletados": 9,
+        "pasesErrados": 1,
+        "disparosAlArco": 3,
+        "disparosErrados": 2,
+        "goles": 0,
+        "asistencias": 1,
+        "intercepciones": 0,
+        "robosDePelota": 3,
+        "regatesExitosos": 2,
+        "regatesFallidos": 2,
+        "golesEvitados": 0,
+        "atajadas": 1,
+        "burradas": 1,
+        "faltas": 0
+      },
+      "b2": {
+        "disparos": 3,
+        "pasesCompletados": 5,
+        "pasesErrados": 1,
+        "disparosAlArco": 1,
+        "disparosErrados": 2,
+        "goles": 1,
+        "asistencias": 0,
+        "intercepciones": 4,
+        "robosDePelota": 1,
+        "regatesExitosos": 2,
+        "regatesFallidos": 1,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b3": {
+        "disparos": 2,
+        "pasesCompletados": 10,
+        "pasesErrados": 3,
+        "disparosAlArco": 1,
+        "disparosErrados": 1,
+        "goles": 2,
+        "asistencias": 1,
+        "intercepciones": 4,
+        "robosDePelota": 0,
+        "regatesExitosos": 2,
+        "regatesFallidos": 3,
+        "golesEvitados": 0,
+        "atajadas": 1,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b4": {
+        "disparos": 6,
+        "pasesCompletados": 4,
+        "pasesErrados": 2,
+        "disparosAlArco": 2,
+        "disparosErrados": 4,
+        "goles": 1,
+        "asistencias": 0,
+        "intercepciones": 1,
+        "robosDePelota": 3,
+        "regatesExitosos": 2,
+        "regatesFallidos": 2,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b5": {
+        "disparos": 3,
+        "pasesCompletados": 5,
+        "pasesErrados": 4,
+        "disparosAlArco": 0,
+        "disparosErrados": 3,
+        "goles": 0,
+        "asistencias": 1,
+        "intercepciones": 5,
+        "robosDePelota": 3,
+        "regatesExitosos": 3,
+        "regatesFallidos": 2,
+        "golesEvitados": 1,
+        "atajadas": 0,
+        "burradas": 2,
+        "faltas": 0
+      },
+      "b6": {
+        "disparos": 2,
+        "pasesCompletados": 9,
+        "pasesErrados": 1,
+        "disparosAlArco": 1,
+        "disparosErrados": 1,
+        "goles": 3,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 2,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b7": {
+        "disparos": 5,
+        "pasesCompletados": 11,
+        "pasesErrados": 3,
+        "disparosAlArco": 1,
+        "disparosErrados": 4,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 1,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      }
+    },
+    "teams": [
+      {
+        "id": "team-a",
+        "name": "Caramelo de Polla",
+        "color": "#f0a52a",
+        "playerCount": 7,
+        "totals": {
+          "disparos": 22,
+          "pasesCompletados": 52,
+          "pasesErrados": 18,
+          "disparosAlArco": 13,
+          "disparosErrados": 9,
+          "goles": 3,
+          "asistencias": 2,
+          "intercepciones": 13,
+          "robosDePelota": 11,
+          "regatesExitosos": 16,
+          "regatesFallidos": 7,
+          "golesEvitados": 4,
+          "atajadas": 7,
+          "burradas": 4,
+          "faltas": 0
+        },
+        "metrics": {
+          "efectividadPases": 0.7428571428571429,
+          "precisionDisparos": 0.5909090909090909,
+          "conversionGoles": 0.13636363636363635,
+          "efectividadRegate": 0.6956521739130435,
+          "accionesDefensivas": 35
+        }
+      },
+      {
+        "id": "team-b",
+        "name": "Caramelo de Embutido",
+        "color": "#5cb85c",
+        "playerCount": 7,
+        "totals": {
+          "disparos": 26,
+          "pasesCompletados": 53,
+          "pasesErrados": 15,
+          "disparosAlArco": 9,
+          "disparosErrados": 17,
+          "goles": 7,
+          "asistencias": 3,
+          "intercepciones": 14,
+          "robosDePelota": 13,
+          "regatesExitosos": 11,
+          "regatesFallidos": 10,
+          "golesEvitados": 1,
+          "atajadas": 2,
+          "burradas": 3,
+          "faltas": 0
+        },
+        "metrics": {
+          "efectividadPases": 0.7794117647058824,
+          "precisionDisparos": 0.34615384615384615,
+          "conversionGoles": 0.2692307692307692,
+          "efectividadRegate": 0.5238095238095238,
+          "accionesDefensivas": 30
+        }
+      }
+    ],
+    "ranking": [
+      {
+        "position": 1,
+        "id": "b6",
+        "name": "Puya",
+        "teamId": "team-b",
+        "teamName": "Caramelo de Embutido",
+        "color": "#5cb85c",
+        "score": 24.5,
+        "totals": {
+          "disparos": 2,
+          "pasesCompletados": 9,
+          "pasesErrados": 1,
+          "disparosAlArco": 1,
+          "disparosErrados": 1,
+          "goles": 3,
+          "asistencias": 0,
+          "intercepciones": 0,
+          "robosDePelota": 2,
+          "regatesExitosos": 0,
+          "regatesFallidos": 0,
+          "golesEvitados": 0,
+          "atajadas": 0,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 3,
+          "pasesTotales": 10,
+          "regatesTotales": 0,
+          "accionesTotales": 17,
+          "efectividadPases": 0.9,
+          "precisionDisparos": 0.5,
+          "conversionGoles": 1.5,
+          "efectividadRegate": 0,
+          "accionesDefensivas": 2
+        }
+      },
+      {
+        "position": 2,
+        "id": "b3",
+        "name": "Kuki",
+        "teamId": "team-b",
+        "teamName": "Caramelo de Embutido",
+        "color": "#5cb85c",
+        "score": 24.25,
+        "totals": {
+          "disparos": 2,
+          "pasesCompletados": 10,
+          "pasesErrados": 3,
+          "disparosAlArco": 1,
+          "disparosErrados": 1,
+          "goles": 2,
+          "asistencias": 1,
+          "intercepciones": 4,
+          "robosDePelota": 0,
+          "regatesExitosos": 2,
+          "regatesFallidos": 3,
+          "golesEvitados": 0,
+          "atajadas": 1,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 3,
+          "pasesTotales": 13,
+          "regatesTotales": 5,
+          "accionesTotales": 28,
+          "efectividadPases": 0.7692307692307693,
+          "precisionDisparos": 0.5,
+          "conversionGoles": 1,
+          "efectividadRegate": 0.4,
+          "accionesDefensivas": 5
+        }
+      },
+      {
+        "position": 3,
+        "id": "a6",
+        "name": "Axel",
+        "teamId": "team-a",
+        "teamName": "Caramelo de Polla",
+        "color": "#f0a52a",
+        "score": 22,
+        "totals": {
+          "disparos": 6,
+          "pasesCompletados": 8,
+          "pasesErrados": 2,
+          "disparosAlArco": 4,
+          "disparosErrados": 2,
+          "goles": 1,
+          "asistencias": 0,
+          "intercepciones": 1,
+          "robosDePelota": 1,
+          "regatesExitosos": 6,
+          "regatesFallidos": 1,
+          "golesEvitados": 1,
+          "atajadas": 1,
+          "burradas": 1,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 1,
+          "pasesTotales": 10,
+          "regatesTotales": 7,
+          "accionesTotales": 29,
+          "efectividadPases": 0.8,
+          "precisionDisparos": 0.6666666666666666,
+          "conversionGoles": 0.16666666666666666,
+          "efectividadRegate": 0.8571428571428571,
+          "accionesDefensivas": 4
+        }
+      },
+      {
+        "position": 4,
+        "id": "a5",
+        "name": "Joaco",
+        "teamId": "team-a",
+        "teamName": "Caramelo de Polla",
+        "color": "#f0a52a",
+        "score": 17.5,
+        "totals": {
+          "disparos": 3,
+          "pasesCompletados": 8,
+          "pasesErrados": 1,
+          "disparosAlArco": 2,
+          "disparosErrados": 1,
+          "goles": 0,
+          "asistencias": 1,
+          "intercepciones": 1,
+          "robosDePelota": 3,
+          "regatesExitosos": 3,
+          "regatesFallidos": 1,
+          "golesEvitados": 1,
+          "atajadas": 1,
+          "burradas": 1,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 1,
+          "pasesTotales": 9,
+          "regatesTotales": 4,
+          "accionesTotales": 24,
+          "efectividadPases": 0.8888888888888888,
+          "precisionDisparos": 0.6666666666666666,
+          "conversionGoles": 0,
+          "efectividadRegate": 0.75,
+          "accionesDefensivas": 6
+        }
+      },
+      {
+        "position": 5,
+        "id": "a4",
+        "name": "Lanza",
+        "teamId": "team-a",
+        "teamName": "Caramelo de Polla",
+        "color": "#f0a52a",
+        "score": 17.25,
+        "totals": {
+          "disparos": 3,
+          "pasesCompletados": 13,
+          "pasesErrados": 5,
+          "disparosAlArco": 3,
+          "disparosErrados": 0,
+          "goles": 1,
+          "asistencias": 0,
+          "intercepciones": 2,
+          "robosDePelota": 0,
+          "regatesExitosos": 0,
+          "regatesFallidos": 2,
+          "golesEvitados": 0,
+          "atajadas": 2,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 1,
+          "pasesTotales": 18,
+          "regatesTotales": 2,
+          "accionesTotales": 28,
+          "efectividadPases": 0.7222222222222222,
+          "precisionDisparos": 1,
+          "conversionGoles": 0.3333333333333333,
+          "efectividadRegate": 0,
+          "accionesDefensivas": 4
+        }
+      },
+      {
+        "position": 6,
+        "id": "a1",
+        "name": "Pollo",
+        "teamId": "team-a",
+        "teamName": "Caramelo de Polla",
+        "color": "#f0a52a",
+        "score": 15.25,
+        "totals": {
+          "disparos": 5,
+          "pasesCompletados": 6,
+          "pasesErrados": 3,
+          "disparosAlArco": 2,
+          "disparosErrados": 3,
+          "goles": 0,
+          "asistencias": 1,
+          "intercepciones": 1,
+          "robosDePelota": 1,
+          "regatesExitosos": 3,
+          "regatesFallidos": 0,
+          "golesEvitados": 1,
+          "atajadas": 0,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 1,
+          "pasesTotales": 9,
+          "regatesTotales": 3,
+          "accionesTotales": 21,
+          "efectividadPases": 0.6666666666666666,
+          "precisionDisparos": 0.4,
+          "conversionGoles": 0,
+          "efectividadRegate": 1,
+          "accionesDefensivas": 3
+        }
+      },
+      {
+        "position": 7,
+        "id": "a2",
+        "name": "Brn",
+        "teamId": "team-a",
+        "teamName": "Caramelo de Polla",
+        "color": "#f0a52a",
+        "score": 13,
+        "totals": {
+          "disparos": 3,
+          "pasesCompletados": 6,
+          "pasesErrados": 4,
+          "disparosAlArco": 1,
+          "disparosErrados": 2,
+          "goles": 1,
+          "asistencias": 0,
+          "intercepciones": 1,
+          "robosDePelota": 3,
+          "regatesExitosos": 2,
+          "regatesFallidos": 1,
+          "golesEvitados": 0,
+          "atajadas": 1,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 1,
+          "pasesTotales": 10,
+          "regatesTotales": 3,
+          "accionesTotales": 22,
+          "efectividadPases": 0.6,
+          "precisionDisparos": 0.3333333333333333,
+          "conversionGoles": 0.3333333333333333,
+          "efectividadRegate": 0.6666666666666666,
+          "accionesDefensivas": 5
+        }
+      },
+      {
+        "position": 8,
+        "id": "b2",
+        "name": "Verde",
+        "teamId": "team-b",
+        "teamName": "Caramelo de Embutido",
+        "color": "#5cb85c",
+        "score": 13,
+        "totals": {
+          "disparos": 3,
+          "pasesCompletados": 5,
+          "pasesErrados": 1,
+          "disparosAlArco": 1,
+          "disparosErrados": 2,
+          "goles": 1,
+          "asistencias": 0,
+          "intercepciones": 4,
+          "robosDePelota": 1,
+          "regatesExitosos": 2,
+          "regatesFallidos": 1,
+          "golesEvitados": 0,
+          "atajadas": 0,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 1,
+          "pasesTotales": 6,
+          "regatesTotales": 3,
+          "accionesTotales": 18,
+          "efectividadPases": 0.8333333333333334,
+          "precisionDisparos": 0.3333333333333333,
+          "conversionGoles": 0.3333333333333333,
+          "efectividadRegate": 0.6666666666666666,
+          "accionesDefensivas": 5
+        }
+      },
+      {
+        "position": 9,
+        "id": "a7",
+        "name": "Gonchi",
+        "teamId": "team-a",
+        "teamName": "Caramelo de Polla",
+        "color": "#f0a52a",
+        "score": 13,
+        "totals": {
+          "disparos": 2,
+          "pasesCompletados": 5,
+          "pasesErrados": 2,
+          "disparosAlArco": 1,
+          "disparosErrados": 1,
+          "goles": 0,
+          "asistencias": 0,
+          "intercepciones": 4,
+          "robosDePelota": 2,
+          "regatesExitosos": 2,
+          "regatesFallidos": 1,
+          "golesEvitados": 1,
+          "atajadas": 0,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 0,
+          "pasesTotales": 7,
+          "regatesTotales": 3,
+          "accionesTotales": 19,
+          "efectividadPases": 0.7142857142857143,
+          "precisionDisparos": 0.5,
+          "conversionGoles": 0,
+          "efectividadRegate": 0.6666666666666666,
+          "accionesDefensivas": 7
+        }
+      },
+      {
+        "position": 10,
+        "id": "b1",
+        "name": "Profe",
+        "teamId": "team-b",
+        "teamName": "Caramelo de Embutido",
+        "color": "#5cb85c",
+        "score": 11.25,
+        "totals": {
+          "disparos": 5,
+          "pasesCompletados": 9,
+          "pasesErrados": 1,
+          "disparosAlArco": 3,
+          "disparosErrados": 2,
+          "goles": 0,
+          "asistencias": 1,
+          "intercepciones": 0,
+          "robosDePelota": 3,
+          "regatesExitosos": 2,
+          "regatesFallidos": 2,
+          "golesEvitados": 0,
+          "atajadas": 1,
+          "burradas": 1,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 1,
+          "pasesTotales": 10,
+          "regatesTotales": 4,
+          "accionesTotales": 25,
+          "efectividadPases": 0.9,
+          "precisionDisparos": 0.6,
+          "conversionGoles": 0,
+          "efectividadRegate": 0.5,
+          "accionesDefensivas": 4
+        }
+      },
+      {
+        "position": 11,
+        "id": "b4",
+        "name": "Lea",
+        "teamId": "team-b",
+        "teamName": "Caramelo de Embutido",
+        "color": "#5cb85c",
+        "score": 10.75,
+        "totals": {
+          "disparos": 6,
+          "pasesCompletados": 4,
+          "pasesErrados": 2,
+          "disparosAlArco": 2,
+          "disparosErrados": 4,
+          "goles": 1,
+          "asistencias": 0,
+          "intercepciones": 1,
+          "robosDePelota": 3,
+          "regatesExitosos": 2,
+          "regatesFallidos": 2,
+          "golesEvitados": 0,
+          "atajadas": 0,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 1,
+          "pasesTotales": 6,
+          "regatesTotales": 4,
+          "accionesTotales": 21,
+          "efectividadPases": 0.6666666666666666,
+          "precisionDisparos": 0.3333333333333333,
+          "conversionGoles": 0.16666666666666666,
+          "efectividadRegate": 0.5,
+          "accionesDefensivas": 4
+        }
+      },
+      {
+        "position": 12,
+        "id": "b5",
+        "name": "Facu",
+        "teamId": "team-b",
+        "teamName": "Caramelo de Embutido",
+        "color": "#5cb85c",
+        "score": 4.5,
+        "totals": {
+          "disparos": 3,
+          "pasesCompletados": 5,
+          "pasesErrados": 4,
+          "disparosAlArco": 0,
+          "disparosErrados": 3,
+          "goles": 0,
+          "asistencias": 1,
+          "intercepciones": 5,
+          "robosDePelota": 3,
+          "regatesExitosos": 3,
+          "regatesFallidos": 2,
+          "golesEvitados": 1,
+          "atajadas": 0,
+          "burradas": 2,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 1,
+          "pasesTotales": 9,
+          "regatesTotales": 5,
+          "accionesTotales": 29,
+          "efectividadPases": 0.5555555555555556,
+          "precisionDisparos": 0,
+          "conversionGoles": 0,
+          "efectividadRegate": 0.6,
+          "accionesDefensivas": 9
+        }
+      },
+      {
+        "position": 13,
+        "id": "b7",
+        "name": "Ale",
+        "teamId": "team-b",
+        "teamName": "Caramelo de Embutido",
+        "color": "#5cb85c",
+        "score": 2.75,
+        "totals": {
+          "disparos": 5,
+          "pasesCompletados": 11,
+          "pasesErrados": 3,
+          "disparosAlArco": 1,
+          "disparosErrados": 4,
+          "goles": 0,
+          "asistencias": 0,
+          "intercepciones": 0,
+          "robosDePelota": 1,
+          "regatesExitosos": 0,
+          "regatesFallidos": 0,
+          "golesEvitados": 0,
+          "atajadas": 0,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 0,
+          "pasesTotales": 14,
+          "regatesTotales": 0,
+          "accionesTotales": 20,
+          "efectividadPases": 0.7857142857142857,
+          "precisionDisparos": 0.2,
+          "conversionGoles": 0,
+          "efectividadRegate": 0,
+          "accionesDefensivas": 1
+        }
+      },
+      {
+        "position": 14,
+        "id": "a3",
+        "name": "Manu",
+        "teamId": "team-a",
+        "teamName": "Caramelo de Polla",
+        "color": "#f0a52a",
+        "score": -1.25,
+        "totals": {
+          "disparos": 0,
+          "pasesCompletados": 6,
+          "pasesErrados": 1,
+          "disparosAlArco": 0,
+          "disparosErrados": 0,
+          "goles": 0,
+          "asistencias": 0,
+          "intercepciones": 3,
+          "robosDePelota": 1,
+          "regatesExitosos": 0,
+          "regatesFallidos": 1,
+          "golesEvitados": 0,
+          "atajadas": 2,
+          "burradas": 2,
+          "faltas": 0
+        },
+        "metrics": {
+          "participacionesEnGol": 0,
+          "pasesTotales": 7,
+          "regatesTotales": 1,
+          "accionesTotales": 16,
+          "efectividadPases": 0.8571428571428571,
+          "precisionDisparos": 0,
+          "conversionGoles": 0,
+          "efectividadRegate": 0,
+          "accionesDefensivas": 6
+        }
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Más Goles",
+        "format": "number",
+        "winnerName": "Caramelo de Embutido",
+        "winnerColor": "#5cb85c",
+        "value": 7,
+        "difference": 4
+      },
+      {
+        "label": "Más Disparos",
+        "format": "number",
+        "winnerName": "Caramelo de Embutido",
+        "winnerColor": "#5cb85c",
+        "value": 26,
+        "difference": 4
+      },
+      {
+        "label": "Mejor % Pases",
+        "format": "percent",
+        "winnerName": "Caramelo de Embutido",
+        "winnerColor": "#5cb85c",
+        "value": 0.7794117647058824,
+        "difference": 0.03655462184873948
+      },
+      {
+        "label": "Mejor % Regates",
+        "format": "percent",
+        "winnerName": "Caramelo de Polla",
+        "winnerColor": "#f0a52a",
+        "value": 0.6956521739130435,
+        "difference": 0.17184265010351962
+      },
+      {
+        "label": "Más Acciones Defensivas",
+        "format": "number",
+        "winnerName": "Caramelo de Polla",
+        "winnerColor": "#f0a52a",
+        "value": 35,
+        "difference": 5
+      }
+    ],
+    "leaders": [
+      {
+        "label": "Goleador",
+        "names": "Puya",
+        "color": "#5cb85c",
+        "value": 3
+      },
+      {
+        "label": "Máximo Asistidor",
+        "names": "Pollo, Joaco, Profe, Kuki, Facu",
+        "color": null,
+        "value": 1
+      },
+      {
+        "label": "Más Disparos",
+        "names": "Axel, Lea",
+        "color": null,
+        "value": 6
+      },
+      {
+        "label": "Mejor Pasador",
+        "names": "Lanza",
+        "color": "#f0a52a",
+        "value": 13
+      },
+      {
+        "label": "Más Intercepciones",
+        "names": "Facu",
+        "color": "#5cb85c",
+        "value": 5
+      },
+      {
+        "label": "Más Robos",
+        "names": "Brn, Joaco, Profe, Lea, Facu",
+        "color": null,
+        "value": 3
+      },
+      {
+        "label": "Más Regates Exitosos",
+        "names": "Axel",
+        "color": "#f0a52a",
+        "value": 6
+      },
+      {
+        "label": "Más Goles Evitados",
+        "names": "Pollo, Joaco, Axel, Gonchi, Facu",
+        "color": null,
+        "value": 1
+      },
+      {
+        "label": "Más Atajadas",
+        "names": "Manu, Lanza",
+        "color": null,
+        "value": 2
+      },
+      {
+        "label": "Más Burradas",
+        "names": "Manu, Facu",
+        "color": null,
+        "value": 2
+      },
+      {
+        "label": "Más Faltas",
+        "names": "—",
+        "color": null,
+        "value": 0
+      }
+    ]
+  },
+  "analysis": [
+    {
+      "label": "Resultado",
+      "text": "Caramelo de Embutido ganó 3 a 7, por 4 goles."
+    },
+    {
+      "label": "Figura del partido",
+      "text": "Puya (Caramelo de Embutido) con 24,5 puntos: 3 goles, 2 robos y 9 pases completados."
+    },
+    {
+      "label": "Peso en los goles",
+      "text": "Puya participó en 3 de los 7 goles de Caramelo de Embutido (43%)."
+    },
+    {
+      "label": "Circulación",
+      "text": "Caramelo de Embutido fue el equipo que mejor movió la pelota: 78% de pases buenos (53 de 68)."
+    },
+    {
+      "label": "Puntería",
+      "text": "Caramelo de Embutido remató 26 veces, 35% al arco, y convirtió 7 (27% de conversión)."
+    },
+    {
+      "label": "Trabajo defensivo",
+      "text": "Caramelo de Polla cortó más juego con 35 acciones defensivas: 13 intercepciones, 11 robos, 4 goles evitados y 7 atajadas."
+    },
+    {
+      "label": "Más seguro con la pelota",
+      "text": "Puya completó 90% de sus 10 pases."
+    },
+    {
+      "label": "Mejor definidor",
+      "text": "Lanza mandó al arco 100% de sus 3 remates."
+    },
+    {
+      "label": "Mejor gambeta",
+      "text": "Pollo ganó 3 de sus 3 regates (100%)."
+    },
+    {
+      "label": "Motor en la marca",
+      "text": "Facu cortó 8 jugadas: 5 intercepciones y 3 robos."
+    },
+    {
+      "label": "Salvador",
+      "text": "Axel evitó 1 gol."
+    },
+    {
+      "label": "Bajo los tres palos",
+      "text": "Lanza se quedó con 2 atajadas."
+    },
+    {
+      "label": "Para mejorar",
+      "text": "Kuki perdió 3 regates."
+    },
+    {
+      "label": "Burrada del partido",
+      "text": "Facu se mandó 2 burradas."
+    }
+  ],
+  "csv": "Fecha del jueves\r\nFecha;2026-07-23\r\n\r\nEquipo;Jugador;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Disparos\r\nCaramelo de Polla;Pollo;6;3;2;3;0;1;1;1;3;0;1;0;0;0;5\r\nCaramelo de Polla;Brn;6;4;1;2;1;0;1;3;2;1;0;1;0;0;3\r\nCaramelo de Polla;Manu;6;1;0;0;0;0;3;1;0;1;0;2;2;0;0\r\nCaramelo de Polla;Lanza;13;5;3;0;1;0;2;0;0;2;0;2;0;0;3\r\nCaramelo de Polla;Joaco;8;1;2;1;0;1;1;3;3;1;1;1;1;0;3\r\nCaramelo de Polla;Axel;8;2;4;2;1;0;1;1;6;1;1;1;1;0;6\r\nCaramelo de Polla;Gonchi;5;2;1;1;0;0;4;2;2;1;1;0;0;0;2\r\nCaramelo de Embutido;Profe;9;1;3;2;0;1;0;3;2;2;0;1;1;0;5\r\nCaramelo de Embutido;Verde;5;1;1;2;1;0;4;1;2;1;0;0;0;0;3\r\nCaramelo de Embutido;Kuki;10;3;1;1;2;1;4;0;2;3;0;1;0;0;2\r\nCaramelo de Embutido;Lea;4;2;2;4;1;0;1;3;2;2;0;0;0;0;6\r\nCaramelo de Embutido;Facu;5;4;0;3;0;1;5;3;3;2;1;0;2;0;3\r\nCaramelo de Embutido;Puya;9;1;1;1;3;0;0;2;0;0;0;0;0;0;2\r\nCaramelo de Embutido;Ale;11;3;1;4;0;0;0;1;0;0;0;0;0;0;5\r\n\r\nTOTALES POR EQUIPO\r\nEquipo;Jugadores;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Disparos\r\nCaramelo de Polla;7;52;18;13;9;3;2;13;11;16;7;4;7;4;0;22\r\nCaramelo de Embutido;7;53;15;9;17;7;3;14;13;11;10;1;2;3;0;26\r\n\r\nEFECTIVIDAD POR EQUIPO\r\nEquipo;% Efectividad Pases;% Disparos al Arco;% Conversión Goles;% Regates;Acciones Defensivas\r\nCaramelo de Polla;74%;59%;14%;70%;35\r\nCaramelo de Embutido;78%;35%;27%;52%;30\r\n\r\nRANKING DE JUGADORES\r\n#;Jugador;Equipo;Puntaje;Goles;Asistencias;G+A;Pases Completados;Pases Errados;% Pases;Disparos;Al Arco;% Al Arco;Regates Exitosos;Regates Fallidos;% Regate;Intercepciones;Robos;Goles Evitados;Atajadas;Acciones Defensivas;Burradas;Faltas\r\n1;Puya;Caramelo de Embutido;24,5;3;0;3;9;1;90%;2;1;50%;0;0;0%;0;2;0;0;2;0;0\r\n2;Kuki;Caramelo de Embutido;24,3;2;1;3;10;3;77%;2;1;50%;2;3;40%;4;0;0;1;5;0;0\r\n3;Axel;Caramelo de Polla;22,0;1;0;1;8;2;80%;6;4;67%;6;1;86%;1;1;1;1;4;1;0\r\n4;Joaco;Caramelo de Polla;17,5;0;1;1;8;1;89%;3;2;67%;3;1;75%;1;3;1;1;6;1;0\r\n5;Lanza;Caramelo de Polla;17,3;1;0;1;13;5;72%;3;3;100%;0;2;0%;2;0;0;2;4;0;0\r\n6;Pollo;Caramelo de Polla;15,3;0;1;1;6;3;67%;5;2;40%;3;0;100%;1;1;1;0;3;0;0\r\n7;Brn;Caramelo de Polla;13,0;1;0;1;6;4;60%;3;1;33%;2;1;67%;1;3;0;1;5;0;0\r\n8;Verde;Caramelo de Embutido;13,0;1;0;1;5;1;83%;3;1;33%;2;1;67%;4;1;0;0;5;0;0\r\n9;Gonchi;Caramelo de Polla;13,0;0;0;0;5;2;71%;2;1;50%;2;1;67%;4;2;1;0;7;0;0\r\n10;Profe;Caramelo de Embutido;11,3;0;1;1;9;1;90%;5;3;60%;2;2;50%;0;3;0;1;4;1;0\r\n11;Lea;Caramelo de Embutido;10,8;1;0;1;4;2;67%;6;2;33%;2;2;50%;1;3;0;0;4;0;0\r\n12;Facu;Caramelo de Embutido;4,5;0;1;1;5;4;56%;3;0;0%;3;2;60%;5;3;1;0;9;2;0\r\n13;Ale;Caramelo de Embutido;2,8;0;0;0;11;3;79%;5;1;20%;0;0;0%;0;1;0;0;1;0;0\r\n14;Manu;Caramelo de Polla;-1,3;0;0;0;6;1;86%;0;0;0%;0;1;0%;3;1;0;2;6;2;0\r\n\r\nANÁLISIS DEL PARTIDO\r\nResultado;Caramelo de Embutido ganó 3 a 7, por 4 goles.\r\nFigura del partido;Puya (Caramelo de Embutido) con 24,5 puntos: 3 goles, 2 robos y 9 pases completados.\r\nPeso en los goles;Puya participó en 3 de los 7 goles de Caramelo de Embutido (43%).\r\nCirculación;Caramelo de Embutido fue el equipo que mejor movió la pelota: 78% de pases buenos (53 de 68).\r\nPuntería;Caramelo de Embutido remató 26 veces, 35% al arco, y convirtió 7 (27% de conversión).\r\nTrabajo defensivo;Caramelo de Polla cortó más juego con 35 acciones defensivas: 13 intercepciones, 11 robos, 4 goles evitados y 7 atajadas.\r\nMás seguro con la pelota;Puya completó 90% de sus 10 pases.\r\nMejor definidor;Lanza mandó al arco 100% de sus 3 remates.\r\nMejor gambeta;Pollo ganó 3 de sus 3 regates (100%).\r\nMotor en la marca;Facu cortó 8 jugadas: 5 intercepciones y 3 robos.\r\nSalvador;Axel evitó 1 gol.\r\nBajo los tres palos;Lanza se quedó con 2 atajadas.\r\nPara mejorar;Kuki perdió 3 regates.\r\nBurrada del partido;Facu se mandó 2 burradas.\r\n\r\nLÍDERES INDIVIDUALES\r\nCategoría;Jugador;Cantidad\r\nGoleador;Puya;3\r\nMáximo Asistidor;Pollo, Joaco, Profe, Kuki, Facu;1\r\nMás Disparos;Axel, Lea;6\r\nMejor Pasador;Lanza;13\r\nMás Intercepciones;Facu;5\r\nMás Robos;Brn, Joaco, Profe, Lea, Facu;3\r\nMás Regates Exitosos;Axel;6\r\nMás Goles Evitados;Pollo, Joaco, Axel, Gonchi, Facu;1\r\nMás Atajadas;Manu, Lanza;2\r\nMás Burradas;Manu, Facu;2\r\nMás Faltas;—;0"
+}

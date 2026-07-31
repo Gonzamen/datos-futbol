@@ -1,0 +1,424 @@
+{
+  "report": {
+    "playerTotals": {
+      "a1": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "a2": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "a3": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "a4": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "a5": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "a6": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "a7": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b1": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b2": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b3": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b4": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b5": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b6": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      },
+      "b7": {
+        "disparos": 0,
+        "pasesCompletados": 0,
+        "pasesErrados": 0,
+        "disparosAlArco": 0,
+        "disparosErrados": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "intercepciones": 0,
+        "robosDePelota": 0,
+        "regatesExitosos": 0,
+        "regatesFallidos": 0,
+        "golesEvitados": 0,
+        "atajadas": 0,
+        "burradas": 0,
+        "faltas": 0
+      }
+    },
+    "teams": [
+      {
+        "id": "team-a",
+        "name": "Caramelo de Polla",
+        "color": "#f0a52a",
+        "playerCount": 7,
+        "totals": {
+          "disparos": 0,
+          "pasesCompletados": 0,
+          "pasesErrados": 0,
+          "disparosAlArco": 0,
+          "disparosErrados": 0,
+          "goles": 0,
+          "asistencias": 0,
+          "intercepciones": 0,
+          "robosDePelota": 0,
+          "regatesExitosos": 0,
+          "regatesFallidos": 0,
+          "golesEvitados": 0,
+          "atajadas": 0,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "efectividadPases": 0,
+          "precisionDisparos": 0,
+          "conversionGoles": 0,
+          "efectividadRegate": 0,
+          "accionesDefensivas": 0
+        }
+      },
+      {
+        "id": "team-b",
+        "name": "Caramelo de Embutido",
+        "color": "#5cb85c",
+        "playerCount": 7,
+        "totals": {
+          "disparos": 0,
+          "pasesCompletados": 0,
+          "pasesErrados": 0,
+          "disparosAlArco": 0,
+          "disparosErrados": 0,
+          "goles": 0,
+          "asistencias": 0,
+          "intercepciones": 0,
+          "robosDePelota": 0,
+          "regatesExitosos": 0,
+          "regatesFallidos": 0,
+          "golesEvitados": 0,
+          "atajadas": 0,
+          "burradas": 0,
+          "faltas": 0
+        },
+        "metrics": {
+          "efectividadPases": 0,
+          "precisionDisparos": 0,
+          "conversionGoles": 0,
+          "efectividadRegate": 0,
+          "accionesDefensivas": 0
+        }
+      }
+    ],
+    "ranking": [],
+    "highlights": [
+      {
+        "label": "Más Goles",
+        "format": "number",
+        "winnerName": "Empate",
+        "winnerColor": null,
+        "value": 0,
+        "difference": 0
+      },
+      {
+        "label": "Más Disparos",
+        "format": "number",
+        "winnerName": "Empate",
+        "winnerColor": null,
+        "value": 0,
+        "difference": 0
+      },
+      {
+        "label": "Mejor % Pases",
+        "format": "percent",
+        "winnerName": "Empate",
+        "winnerColor": null,
+        "value": 0,
+        "difference": 0
+      },
+      {
+        "label": "Mejor % Regates",
+        "format": "percent",
+        "winnerName": "Empate",
+        "winnerColor": null,
+        "value": 0,
+        "difference": 0
+      },
+      {
+        "label": "Más Acciones Defensivas",
+        "format": "number",
+        "winnerName": "Empate",
+        "winnerColor": null,
+        "value": 0,
+        "difference": 0
+      }
+    ],
+    "leaders": [
+      {
+        "label": "Goleador",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
+        "label": "Máximo Asistidor",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
+        "label": "Más Disparos",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
+        "label": "Mejor Pasador",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
+        "label": "Más Intercepciones",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
+        "label": "Más Robos",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
+        "label": "Más Regates Exitosos",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
+        "label": "Más Goles Evitados",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
+        "label": "Más Atajadas",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
+        "label": "Más Burradas",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
+        "label": "Más Faltas",
+        "names": "—",
+        "color": null,
+        "value": 0
+      }
+    ]
+  },
+  "analysis": [
+    {
+      "label": "Sin datos",
+      "text": "Cargá algunas estadísticas y acá vas a ver el análisis del partido."
+    }
+  ],
+  "csv": "Fecha sin cargar\r\nFecha;2026-07-23\r\n\r\nEquipo;Jugador;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Disparos\r\nCaramelo de Polla;Pollo;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Brn;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Manu;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Lanza;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Joaco;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Axel;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Gonchi;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Profe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Verde;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Kuki;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Lea;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Facu;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Puya;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Ale;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\n\r\nTOTALES POR EQUIPO\r\nEquipo;Jugadores;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Disparos\r\nCaramelo de Polla;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\n\r\nEFECTIVIDAD POR EQUIPO\r\nEquipo;% Efectividad Pases;% Disparos al Arco;% Conversión Goles;% Regates;Acciones Defensivas\r\nCaramelo de Polla;0%;0%;0%;0%;0\r\nCaramelo de Embutido;0%;0%;0%;0%;0\r\n\r\nRANKING DE JUGADORES\r\n#;Jugador;Equipo;Puntaje;Goles;Asistencias;G+A;Pases Completados;Pases Errados;% Pases;Disparos;Al Arco;% Al Arco;Regates Exitosos;Regates Fallidos;% Regate;Intercepciones;Robos;Goles Evitados;Atajadas;Acciones Defensivas;Burradas;Faltas\r\n\r\nANÁLISIS DEL PARTIDO\r\nSin datos;Cargá algunas estadísticas y acá vas a ver el análisis del partido.\r\n\r\nLÍDERES INDIVIDUALES\r\nCategoría;Jugador;Cantidad\r\nGoleador;—;0\r\nMáximo Asistidor;—;0\r\nMás Disparos;—;0\r\nMejor Pasador;—;0\r\nMás Intercepciones;—;0\r\nMás Robos;—;0\r\nMás Regates Exitosos;—;0\r\nMás Goles Evitados;—;0\r\nMás Atajadas;—;0\r\nMás Burradas;—;0\r\nMás Faltas;—;0"
+}

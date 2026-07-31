@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage/
+packages/domain/test/golden/
+
+# Copia congelada de la app original, usada solo para regenerar los golden.
+packages/domain/test/legacy/
