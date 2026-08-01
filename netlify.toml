@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build -w @datos-futbol/domain && npm run build -w @datos-futbol/web"
+  publish = "apps/web/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
