@@ -86,9 +86,11 @@ export function buildCsv(match: Match): string {
       formatPercent(player.metrics.efectividadRegate),
       player.totals.intercepciones,
       player.totals.robosDePelota,
+      player.totals.despejes,
       player.totals.golesEvitados,
       player.totals.atajadas,
       player.metrics.accionesDefensivas,
+      player.totals.controlesFallidos,
       player.totals.burradas,
       player.totals.faltas,
     ])
@@ -142,9 +144,11 @@ const RANKING_HEADERS = [
   '% Regate',
   'Intercepciones',
   'Robos',
+  'Despejes',
   'Goles Evitados',
   'Atajadas',
   'Acciones Defensivas',
+  'Controles Fallidos',
   'Burradas',
   'Faltas',
 ]

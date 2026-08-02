@@ -77,6 +77,20 @@ export const STAT_DEFINITIONS = [
   { id: 'atajadas', label: 'Atajadas', short: 'Atajada', tone: 'positive', key: 'A' },
   { id: 'burradas', label: 'Burradas', short: 'Burrada', tone: 'negative', key: 'B' },
   { id: 'faltas', label: 'Faltas', short: 'Falta', tone: 'negative', key: 'F' },
+  {
+    id: 'despejes',
+    label: 'Despejes',
+    short: 'Despeje',
+    tone: 'positive',
+    key: 'D',
+  },
+  {
+    id: 'controlesFallidos',
+    label: 'Controles Fallidos',
+    short: 'Mal control',
+    tone: 'negative',
+    key: 'M',
+  },
 ] as const
 
 export type StatDefinition = (typeof STAT_DEFINITIONS)[number]

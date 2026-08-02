@@ -174,6 +174,7 @@ function describeDefense(totals: Totals): string {
     [
       countPart(totals.intercepciones, 'intercepción', 'intercepciones'),
       countPart(totals.robosDePelota, 'robo', 'robos'),
+      countPart(totals.despejes, 'despeje', 'despejes'),
       countPart(totals.golesEvitados, 'gol evitado', 'goles evitados'),
       countPart(totals.atajadas, 'atajada', 'atajadas'),
     ].filter(isPresent),

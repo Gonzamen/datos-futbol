@@ -186,6 +186,7 @@ const LEADER_DEFINITIONS: LeaderDefinition[] = [
   { label: 'Mejor Pasador', statId: 'pasesCompletados' },
   { label: 'Más Intercepciones', statId: 'intercepciones' },
   { label: 'Más Robos', statId: 'robosDePelota' },
+  { label: 'Más Despejes', statId: 'despejes' },
   { label: 'Más Regates Exitosos', statId: 'regatesExitosos' },
   { label: 'Más Goles Evitados', statId: 'golesEvitados' },
   { label: 'Más Atajadas', statId: 'atajadas' },

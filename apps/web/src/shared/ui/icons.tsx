@@ -7,7 +7,7 @@ import type { SVGProps } from 'react'
  * library's stroke with custom football glyphs reads as two sets stapled
  * together.
  *
- * Shared grammar, so the fourteen stats scan as one family at 20px:
+ * Shared grammar, so the sixteen stats scan as one family at 20px:
  *   · 24×24 grid, 1.75 stroke, round caps and joins, no fill except the ball
  *   · the ball is always a filled disc — it is the only solid shape
  *   · movement is an arc, obstruction is a straight bar, failure is a cross
@@ -37,7 +37,7 @@ function icon(paths: React.ReactNode) {
   }
 }
 
-/* Stats — the fourteen counted actions. */
+/* Stats — the sixteen counted actions. */
 
 /** Ball leaving on an arc that lands on its target. */
 const PassCompleted = icon(
@@ -167,6 +167,24 @@ const Foul = icon(
   <path d="M9.6 2.8 18.4 5.2C19.3 5.5 19.8 6.4 19.6 7.3L16.4 20.4C16.1 21.3 15.2 21.8 14.4 21.6L5.6 19.2C4.7 18.9 4.2 18 4.4 17.1L7.6 4C7.9 3.1 8.8 2.6 9.6 2.8Z" />,
 )
 
+/** The ball sent away in a long arc, straight out of defence. */
+const Clearance = icon(
+  <>
+    <circle cx="4.4" cy="19.4" r="2.4" fill="currentColor" stroke="none" />
+    <path d="M6.6 18C10.6 12.4 14.6 8.2 20.6 5.4" />
+    <path d="M13.6 4.6 20.8 4.8 20 12" opacity="0.45" />
+  </>,
+)
+
+/** The ball, touched heavy and skidding away underfoot. */
+const MiscontrolIcon = icon(
+  <>
+    <circle cx="9" cy="14.4" r="3.2" fill="currentColor" stroke="none" />
+    <path d="M11.6 12.4C14.4 10.6 16.4 10 19.4 10.2" strokeDasharray="3 2.6" />
+    <path d="M17.4 18.2 21 18.2M17.4 21.4 21 21.4" opacity="0.45" />
+  </>,
+)
+
 /**
  * Every counted stat has a mark. Keyed by `StatId` so adding a statistic to
  * the domain fails to compile here until it gets one, instead of silently
@@ -187,6 +205,8 @@ export const STAT_ICONS: Record<StatId, (props: IconProps) => React.ReactElement
   atajadas: Save,
   burradas: Blunder,
   faltas: Foul,
+  despejes: Clearance,
+  controlesFallidos: MiscontrolIcon,
 }
 
 /* Interface — same grammar, used for controls rather than actions. */

@@ -21,6 +21,8 @@ export const SCORE_WEIGHTS: Record<StatId, number> = {
   regatesFallidos: -0.75,
   faltas: -0.75,
   burradas: -5,
+  despejes: 0.75,
+  controlesFallidos: -0.75,
 }
 
 const WEIGHTED_STAT_IDS = Object.keys(SCORE_WEIGHTS) as StatId[]
@@ -57,7 +59,13 @@ export function dribbles(totals: Totals): number {
 }
 
 export function defensiveActions(totals: Totals): number {
-  return totals.intercepciones + totals.robosDePelota + totals.golesEvitados + totals.atajadas
+  return (
+    totals.intercepciones +
+    totals.robosDePelota +
+    totals.despejes +
+    totals.golesEvitados +
+    totals.atajadas
+  )
 }
 
 export function ratio(part: number, whole: number): number {

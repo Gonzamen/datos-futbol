@@ -148,7 +148,12 @@ const RECORD_DEFINITIONS: RecordDefinition[] = [
   { label: 'Más Atajadas en un Partido', read: (totals) => totals.atajadas },
   {
     label: 'Más Acciones Defensivas en un Partido',
-    read: (totals) => totals.intercepciones + totals.robosDePelota + totals.golesEvitados + totals.atajadas,
+    read: (totals) =>
+      totals.intercepciones +
+      totals.robosDePelota +
+      totals.despejes +
+      totals.golesEvitados +
+      totals.atajadas,
   },
 ]
 

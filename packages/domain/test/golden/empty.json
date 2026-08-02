@@ -16,7 +16,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "a2": {
         "disparos": 0,
@@ -33,7 +35,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "a3": {
         "disparos": 0,
@@ -50,7 +54,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "a4": {
         "disparos": 0,
@@ -67,7 +73,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "a5": {
         "disparos": 0,
@@ -84,7 +92,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "a6": {
         "disparos": 0,
@@ -101,7 +111,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "a7": {
         "disparos": 0,
@@ -118,7 +130,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "b1": {
         "disparos": 0,
@@ -135,7 +149,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "b2": {
         "disparos": 0,
@@ -152,7 +168,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "b3": {
         "disparos": 0,
@@ -169,7 +187,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "b4": {
         "disparos": 0,
@@ -186,7 +206,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "b5": {
         "disparos": 0,
@@ -203,7 +225,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "b6": {
         "disparos": 0,
@@ -220,7 +244,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       },
       "b7": {
         "disparos": 0,
@@ -237,7 +263,9 @@
         "golesEvitados": 0,
         "atajadas": 0,
         "burradas": 0,
-        "faltas": 0
+        "faltas": 0,
+        "despejes": 0,
+        "controlesFallidos": 0
       }
     },
     "teams": [
@@ -261,7 +289,9 @@
           "golesEvitados": 0,
           "atajadas": 0,
           "burradas": 0,
-          "faltas": 0
+          "faltas": 0,
+          "despejes": 0,
+          "controlesFallidos": 0
         },
         "metrics": {
           "efectividadPases": 0,
@@ -291,7 +321,9 @@
           "golesEvitados": 0,
           "atajadas": 0,
           "burradas": 0,
-          "faltas": 0
+          "faltas": 0,
+          "despejes": 0,
+          "controlesFallidos": 0
         },
         "metrics": {
           "efectividadPases": 0,
@@ -383,6 +415,12 @@
         "value": 0
       },
       {
+        "label": "Más Despejes",
+        "names": "—",
+        "color": null,
+        "value": 0
+      },
+      {
         "label": "Más Regates Exitosos",
         "names": "—",
         "color": null,
@@ -420,5 +458,5 @@
       "text": "Cargá algunas estadísticas y acá vas a ver el análisis del partido."
     }
   ],
-  "csv": "Fecha sin cargar\r\nFecha;2026-07-23\r\n\r\nEquipo;Jugador;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Disparos\r\nCaramelo de Polla;Pollo;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Brn;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Manu;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Lanza;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Joaco;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Axel;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Gonchi;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Profe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Verde;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Kuki;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Lea;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Facu;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Puya;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Ale;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\n\r\nTOTALES POR EQUIPO\r\nEquipo;Jugadores;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Disparos\r\nCaramelo de Polla;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\n\r\nEFECTIVIDAD POR EQUIPO\r\nEquipo;% Efectividad Pases;% Disparos al Arco;% Conversión Goles;% Regates;Acciones Defensivas\r\nCaramelo de Polla;0%;0%;0%;0%;0\r\nCaramelo de Embutido;0%;0%;0%;0%;0\r\n\r\nRANKING DE JUGADORES\r\n#;Jugador;Equipo;Puntaje;Goles;Asistencias;G+A;Pases Completados;Pases Errados;% Pases;Disparos;Al Arco;% Al Arco;Regates Exitosos;Regates Fallidos;% Regate;Intercepciones;Robos;Goles Evitados;Atajadas;Acciones Defensivas;Burradas;Faltas\r\n\r\nANÁLISIS DEL PARTIDO\r\nSin datos;Cargá algunas estadísticas y acá vas a ver el análisis del partido.\r\n\r\nLÍDERES INDIVIDUALES\r\nCategoría;Jugador;Cantidad\r\nGoleador;—;0\r\nMáximo Asistidor;—;0\r\nMás Disparos;—;0\r\nMejor Pasador;—;0\r\nMás Intercepciones;—;0\r\nMás Robos;—;0\r\nMás Regates Exitosos;—;0\r\nMás Goles Evitados;—;0\r\nMás Atajadas;—;0\r\nMás Burradas;—;0\r\nMás Faltas;—;0"
+  "csv": "Fecha sin cargar\r\nFecha;2026-07-23\r\n\r\nEquipo;Jugador;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Despejes;Controles Fallidos;Disparos\r\nCaramelo de Polla;Pollo;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Brn;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Manu;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Lanza;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Joaco;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Axel;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Gonchi;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Profe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Verde;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Kuki;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Lea;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Facu;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Puya;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Ale;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\n\r\nTOTALES POR EQUIPO\r\nEquipo;Jugadores;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Despejes;Controles Fallidos;Disparos\r\nCaramelo de Polla;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\n\r\nEFECTIVIDAD POR EQUIPO\r\nEquipo;% Efectividad Pases;% Disparos al Arco;% Conversión Goles;% Regates;Acciones Defensivas\r\nCaramelo de Polla;0%;0%;0%;0%;0\r\nCaramelo de Embutido;0%;0%;0%;0%;0\r\n\r\nRANKING DE JUGADORES\r\n#;Jugador;Equipo;Puntaje;Goles;Asistencias;G+A;Pases Completados;Pases Errados;% Pases;Disparos;Al Arco;% Al Arco;Regates Exitosos;Regates Fallidos;% Regate;Intercepciones;Robos;Despejes;Goles Evitados;Atajadas;Acciones Defensivas;Controles Fallidos;Burradas;Faltas\r\n\r\nANÁLISIS DEL PARTIDO\r\nSin datos;Cargá algunas estadísticas y acá vas a ver el análisis del partido.\r\n\r\nLÍDERES INDIVIDUALES\r\nCategoría;Jugador;Cantidad\r\nGoleador;—;0\r\nMáximo Asistidor;—;0\r\nMás Disparos;—;0\r\nMejor Pasador;—;0\r\nMás Intercepciones;—;0\r\nMás Robos;—;0\r\nMás Despejes;—;0\r\nMás Regates Exitosos;—;0\r\nMás Goles Evitados;—;0\r\nMás Atajadas;—;0\r\nMás Burradas;—;0\r\nMás Faltas;—;0"
 }
