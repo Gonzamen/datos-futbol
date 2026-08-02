@@ -184,18 +184,30 @@ directamente, no la compilación.
 ## Deploy
 
 La API necesita un proceso que viva: las funciones serverless no sostienen WebSockets.
-Por eso van separados — el frontend estático en **Vercel**, la API en **Railway** y la
-base en **Neon**.
+Por eso van separados — el frontend estático en **Netlify**, la API en **Railway** y la
+base en **Neon**. Los tres están conectados al repo de GitHub: un `git push` a `main`
+dispara build y deploy en los dos automáticamente, sin tocar nada a mano.
+
+Instancia actual:
+
+| Servicio | Dónde   | URL                                                    |
+| -------- | ------- | ------------------------------------------------------ |
+| Web      | Netlify | https://datos-futbol.netlify.app                       |
+| API      | Railway | https://datos-futbol-api-production.up.railway.app     |
+| Base     | Neon    | (privada, solo en las variables de entorno de Railway) |
+| Repo     | GitHub  | https://github.com/Gonzamen/datos-futbol (público)     |
 
 ### 1. Base de datos (Neon)
 
 Creá un proyecto en [Neon](https://neon.tech) y guardá la connection string. Las
-migraciones se aplican solas en cada deploy de Railway, antes de arrancar el servidor.
+migraciones se aplican solas en cada deploy de Railway, antes de arrancar el servidor
+(`db:migrate:dist` corre primero, ver `railway.json`).
 
 ### 2. API (Railway)
 
-Un proyecto nuevo apuntando a este repo. `railway.json` ya define el build, el arranque y
-el health check contra `/health`; solo hay que cargar las variables:
+Un servicio conectado a este repo (`railway service source connect --repo <owner>/<repo>
+--branch main --service <nombre>`, o desde el dashboard). `railway.json` ya define el
+build, el arranque y el health check contra `/health`; solo hay que cargar las variables:
 
 | Variable                                    | Valor                                               |
 | ------------------------------------------- | --------------------------------------------------- |
@@ -203,7 +215,7 @@ el health check contra `/health`; solo hay que cargar las variables:
 | `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | los mismos que en desarrollo                        |
 | `GOOGLE_REDIRECT_URI`                       | `https://<api>.up.railway.app/auth/google/callback` |
 | `JWT_SECRET`                                | un string largo al azar, distinto al de local       |
-| `WEB_ORIGIN`                                | `https://<web>.vercel.app`                          |
+| `WEB_ORIGIN`                                | `https://<web>.netlify.app`                         |
 | `COOKIE_SECURE`                             | `true`                                              |
 | `COOKIE_SAMESITE`                           | `none`                                              |
 
@@ -213,13 +225,32 @@ navegador no la manda — ni en las llamadas a la API ni en el handshake del Web
 autentica leyendo esa misma cookie. Si ponés `none` sin `secure`, el servidor se niega a
 arrancar en vez de dejarte un login que nunca pega.
 
-### 3. Frontend (Vercel)
+**Conectar el repo por CLI puede fallar con `Unauthorized`** si la Railway GitHub App no
+tiene autorizado ese repo todavía. Se resuelve autorizándola desde el dashboard (o, más
+simple, poniendo el repo en público) y reintentando.
 
-El mismo repo; `vercel.json` ya dice qué compilar y de dónde sale. Una sola variable:
+### 3. Frontend (Netlify)
+
+El mismo repo; `netlify.toml` ya dice qué compilar (`npm run build -w @datos-futbol/domain
+&& npm run build -w @datos-futbol/web`) y de dónde sale (`apps/web/dist`). Una sola
+variable, en Site settings → Environment variables:
 
 ```
 VITE_API_URL=https://<api>.up.railway.app
 ```
+
+Para que el build se dispare solo en cada push, el sitio tiene que estar linkeado al repo
+**desde la UI** (Site settings → Build & deploy → Continuous deployment → Link
+repository), autorizando ahí la GitHub App de Netlify. Linkearlo por la API (`netlify api
+updateSite` con un campo `repo`) deja el sitio con la referencia al repo cargada pero sin
+el webhook real — los pushes no disparan nada y no hay error visible; la única forma de
+confirmarlo es mirar `installation_id` en `netlify api getSite`: si es `null`, no hay
+conexión real y hay que desconectar y volver a linkear desde la UI.
+
+**Sitios nuevos pueden salir con "Site protection" activado**, que exige loguearse con
+Netlify para ver _cualquier_ deploy, incluido producción (se nota porque la home devuelve
+401 con una página de "Login Redirect" en vez del sitio). Se desactiva en Site settings →
+Site protection / Access control.
 
 ### 4. Google OAuth
 
@@ -227,6 +258,16 @@ En la consola de Google, al cliente OAuth que ya usás agregale en **Authorized 
 URIs** el `GOOGLE_REDIRECT_URI` de producción. Los de desarrollo pueden quedar: acepta
 varios.
 
-El orden importa solo por las URLs: hasta que Vercel y Railway no te dan sus dominios no
+El orden importa solo por las URLs: hasta que Netlify y Railway no te dan sus dominios no
 podés completar `WEB_ORIGIN` ni `VITE_API_URL`. Deployá los dos, anotá las URLs, cargá las
 variables y volvé a deployar.
+
+### Por qué Netlify y no Vercel
+
+El plan pensado originalmente era Vercel para el frontend, pero la cuenta usada no tiene
+plan Hobby (gratis) disponible: el flujo de creación de proyecto fuerza a crear un "Team",
+y los Teams en Vercel son de pago (Pro, con trial de 14 días que pide tarjeta). El plan
+Hobby existe y es gratis, pero es el scope personal de la cuenta, no un Team — y esa
+cuenta puntual nunca lo tuvo habilitado como default. Netlify da el mismo resultado (build
+estático de Vite en un dominio público, gratis, con deploy automático por Git) sin ese
+problema.
