@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { LoginScreen } from '../features/auth/LoginScreen.js'
 import { MatchListView } from '../features/matches/MatchListView.js'
 import { RosterView } from '../features/roster/RosterView.js'
+import { SeasonView } from '../features/season/SeasonView.js'
 import { SummaryView } from '../features/summary/SummaryView.js'
 import { TableView } from '../features/table/TableView.js'
 import { TaggingView } from '../features/tagging/TaggingView.js'
@@ -11,6 +12,7 @@ import { useSessionStore } from '../shared/session/sessionStore.js'
 import { useMatchStore } from '../shared/store/matchStore.js'
 import { Logo } from '../shared/ui/Logo.js'
 import {
+  IconChart,
   IconChevronLeft,
   IconClapper,
   IconGrid,
@@ -55,11 +57,13 @@ export function App() {
   return <AuthenticatedApp />
 }
 
+type TopLevelView = 'matches' | 'roster' | 'season'
+
 function AuthenticatedApp() {
   const user = useSessionStore((state) => state.user)
   const logout = useSessionStore((state) => state.logout)
   const [openMatchId, setOpenMatchId] = useState<string | null>(null)
-  const [showRoster, setShowRoster] = useState(false)
+  const [topView, setTopView] = useState<TopLevelView>('matches')
   const match = useMatchStore((state) => state.match)
   const loading = useMatchStore((state) => state.loading)
   const loadError = useMatchStore((state) => state.loadError)
@@ -92,11 +96,15 @@ function AuthenticatedApp() {
         <TopBar
           userName={user.name}
           onLogout={handleLogout}
-          onRoster={() => setShowRoster((current) => !current)}
-          rosterActive={showRoster}
+          onRoster={() => setTopView('roster')}
+          rosterActive={topView === 'roster'}
+          onSeason={() => setTopView('season')}
+          seasonActive={topView === 'season'}
         />
-        {showRoster ? (
-          <RosterView onBack={() => setShowRoster(false)} />
+        {topView === 'roster' ? (
+          <RosterView onBack={() => setTopView('matches')} />
+        ) : topView === 'season' ? (
+          <SeasonView onBack={() => setTopView('matches')} onOpenMatch={handleOpen} />
         ) : (
           <MatchListView onOpen={handleOpen} />
         )}
@@ -134,9 +142,18 @@ interface TopBarProps {
   onLogout(): void
   onRoster?(): void
   rosterActive?: boolean
+  onSeason?(): void
+  seasonActive?: boolean
 }
 
-function TopBar({ userName, onLogout, onRoster, rosterActive }: TopBarProps) {
+function TopBar({
+  userName,
+  onLogout,
+  onRoster,
+  rosterActive,
+  onSeason,
+  seasonActive,
+}: TopBarProps) {
   return (
     <div className="top-bar">
       <Logo />
@@ -150,6 +167,18 @@ function TopBar({ userName, onLogout, onRoster, rosterActive }: TopBarProps) {
         >
           <IconUsers />
           Jugadores del grupo
+        </button>
+      ) : null}
+
+      {onSeason ? (
+        <button
+          type="button"
+          className="btn btn--ghost btn--small"
+          onClick={onSeason}
+          aria-pressed={seasonActive}
+        >
+          <IconChart />
+          Temporada
         </button>
       ) : null}
 

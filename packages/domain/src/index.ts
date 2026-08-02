@@ -51,6 +51,15 @@ export {
 
 export { buildRanking, buildReport, emptyTotals, totalsByPlayer } from './projections.js'
 
+export { buildSeasonReport } from './season.js'
+export type {
+  RankedSeasonPlayer,
+  SeasonPlayerStats,
+  SeasonRecord,
+  SeasonRecordEntry,
+  SeasonReport,
+} from './season.js'
+
 export { DEDUPE_WINDOW_MS, findPossibleDuplicate } from './dedupe.js'
 export type { DuplicateCandidate } from './dedupe.js'
 

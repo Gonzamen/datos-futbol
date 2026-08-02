@@ -257,6 +257,13 @@ export const IconTrash = icon(
   </>,
 )
 
+export const IconChart = icon(
+  <>
+    <path d="M3.4 20.6V3.4M3.4 20.6h17.2" />
+    <path d="M7.4 20.6v-6.4M12 20.6V9.4M16.6 20.6V6" />
+  </>,
+)
+
 export const IconLive = icon(
   <>
     <circle cx="12" cy="12" r="3" fill="currentColor" stroke="none" />

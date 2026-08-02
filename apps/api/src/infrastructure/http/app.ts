@@ -7,6 +7,7 @@ import { sessionPlugin } from './plugins/session.js'
 import { registerAuthRoutes } from './routes/auth.routes.js'
 import { registerMatchRoutes } from './routes/matches.routes.js'
 import { registerPeopleRoutes } from './routes/people.routes.js'
+import { registerSeasonRoutes } from './routes/season.routes.js'
 import { registerSegmentRoutes } from './routes/segments.routes.js'
 import { createRealtimeGateway } from '../realtime/gateway.js'
 
@@ -33,6 +34,7 @@ export async function buildApp(input: AppDependencies) {
   await app.register(async (matchesScope) => {
     registerMatchRoutes(matchesScope, context)
     registerSegmentRoutes(matchesScope, context)
+    registerSeasonRoutes(matchesScope, context)
   })
 
   return app
