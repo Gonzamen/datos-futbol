@@ -34,7 +34,7 @@ function player(name: string, score: number, goals = 0, assists = 0): PlayerRepo
 describe('scoreOf', () => {
   it('suma los aciertos y descuenta los errores', () => {
     expect(scoreOf(totals({ goles: 1, asistencias: 1 }))).toBe(10)
-    expect(scoreOf(totals({ burradas: 1 }))).toBe(-5)
+    expect(scoreOf(totals({ burradas: 1 }))).toBe(-3)
   })
 
   it('deja en negativo a quien toca mucho la pelota y la regala', () => {

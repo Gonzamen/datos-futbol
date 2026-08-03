@@ -96,7 +96,7 @@ Cargar un partido es un trabajo a dos manos: una maneja el video, la otra anota.
 
 | Tecla                            | Acción                              |
 | -------------------------------- | ----------------------------------- |
-| `1`…`9`, `0`, `E`, `A`, `B`, `F` | Suma la estadística al seleccionado |
+| `1`…`9`, `0`, `E`, `A`, `B`, `F`, `D`, `M`, `K` | Suma la estadística al seleccionado |
 | `↑` `↓`                          | Cambia de jugador                   |
 | `Espacio`                        | Play / pausa                        |
 | `←` `→`                          | Retrocede / adelanta 5 s            |
@@ -108,22 +108,25 @@ Cargar un partido es un trabajo a dos manos: una maneja el video, la otra anota.
 
 Cada jugador suma un puntaje con las acciones del partido:
 
-| Acción          | Puntos |
-| --------------- | ------ |
-| Gol             | +6     |
-| Gol evitado     | +5     |
-| Asistencia      | +4     |
-| Atajada         | +2     |
-| Disparo al arco | +1,5   |
-| Robo de pelota  | +1     |
-| Regate exitoso  | +1     |
-| Intercepción    | +0,75  |
-| Pase completado | +0,5   |
-| Disparo errado  | −0,75  |
-| Pase errado     | −0,75  |
-| Regate fallido  | −0,75  |
-| Falta           | −0,75  |
-| Burrada         | −5     |
+| Acción            | Puntos |
+| ----------------- | ------ |
+| Gol               | +6     |
+| Gol evitado       | +5     |
+| Asistencia        | +4     |
+| Atajada           | +2     |
+| Pase clave        | +2     |
+| Disparo al arco   | +1     |
+| Robo de pelota    | +1     |
+| Regate exitoso    | +1     |
+| Intercepción      | +0,75  |
+| Despeje           | +0,5   |
+| Pase completado   | +0,5   |
+| Disparo errado    | −0,75  |
+| Pase errado       | −0,5   |
+| Regate fallido    | −0,5   |
+| Falta             | −0,5   |
+| Control fallido   | −0,5   |
+| Burrada           | −3     |
 
 Los errores restan a propósito: alguien que toca mucho la pelota pero la regala no
 debería subir en la tabla. Si empatan en puntaje, desempata por goles, después por
