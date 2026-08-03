@@ -98,6 +98,13 @@ export const STAT_DEFINITIONS = [
     tone: 'positive',
     key: 'K',
   },
+  {
+    id: 'disparosBloqueados',
+    label: 'Disparos Bloqueados',
+    short: 'Bloqueado',
+    tone: 'positive',
+    key: 'L',
+  },
 ] as const
 
 export type StatDefinition = (typeof STAT_DEFINITIONS)[number]

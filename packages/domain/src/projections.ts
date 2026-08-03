@@ -188,6 +188,7 @@ const LEADER_DEFINITIONS: LeaderDefinition[] = [
   { label: 'Más Intercepciones', statId: 'intercepciones' },
   { label: 'Más Robos', statId: 'robosDePelota' },
   { label: 'Más Despejes', statId: 'despejes' },
+  { label: 'Más Disparos Bloqueados', statId: 'disparosBloqueados' },
   { label: 'Más Regates Exitosos', statId: 'regatesExitosos' },
   { label: 'Más Goles Evitados', statId: 'golesEvitados' },
   { label: 'Más Atajadas', statId: 'atajadas' },

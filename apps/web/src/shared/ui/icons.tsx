@@ -7,7 +7,7 @@ import type { SVGProps } from 'react'
  * library's stroke with custom football glyphs reads as two sets stapled
  * together.
  *
- * Shared grammar, so the seventeen stats scan as one family at 20px:
+ * Shared grammar, so the eighteen stats scan as one family at 20px:
  *   · 24×24 grid, 1.75 stroke, round caps and joins, no fill except the ball
  *   · the ball is always a filled disc — it is the only solid shape
  *   · movement is an arc, obstruction is a straight bar, failure is a cross
@@ -37,7 +37,7 @@ function icon(paths: React.ReactNode) {
   }
 }
 
-/* Stats — the seventeen counted actions. */
+/* Stats — the eighteen counted actions. */
 
 /** Ball leaving on an arc that lands on its target. */
 const PassCompleted = icon(
@@ -196,6 +196,16 @@ const MiscontrolIcon = icon(
   </>,
 )
 
+/** A shot on frame, stopped short by a body thrown across its path. */
+const BlockedShot = icon(
+  <>
+    <circle cx="5.4" cy="17.4" r="2.4" fill="currentColor" stroke="none" />
+    <path d="M7.6 16.2C10.6 12 13.4 9.4 17 7.6" strokeDasharray="2.8 2.4" />
+    <path d="M15.8 3.4v11.2" strokeWidth="2.4" />
+    <path d="M19.6 6.8 22.4 10.2l-2.8 3.4" opacity="0.45" />
+  </>,
+)
+
 /**
  * Every counted stat has a mark. Keyed by `StatId` so adding a statistic to
  * the domain fails to compile here until it gets one, instead of silently
@@ -219,6 +229,7 @@ export const STAT_ICONS: Record<StatId, (props: IconProps) => React.ReactElement
   despejes: Clearance,
   controlesFallidos: MiscontrolIcon,
   pasesClave: KeyPass,
+  disparosBloqueados: BlockedShot,
 }
 
 /* Interface — same grammar, used for controls rather than actions. */

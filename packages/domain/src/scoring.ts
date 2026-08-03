@@ -24,6 +24,7 @@ export const SCORE_WEIGHTS: Record<StatId, number> = {
   despejes: 0.5,
   controlesFallidos: -0.5,
   pasesClave: 2,
+  disparosBloqueados: 0.25,
 }
 
 const WEIGHTED_STAT_IDS = Object.keys(SCORE_WEIGHTS) as StatId[]
@@ -64,6 +65,7 @@ export function defensiveActions(totals: Totals): number {
     totals.intercepciones +
     totals.robosDePelota +
     totals.despejes +
+    totals.disparosBloqueados +
     totals.golesEvitados +
     totals.atajadas
   )

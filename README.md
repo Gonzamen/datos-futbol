@@ -96,7 +96,7 @@ Cargar un partido es un trabajo a dos manos: una maneja el video, la otra anota.
 
 | Tecla                            | Acción                              |
 | -------------------------------- | ----------------------------------- |
-| `1`…`9`, `0`, `E`, `A`, `B`, `F`, `D`, `M`, `K` | Suma la estadística al seleccionado |
+| `1`…`9`, `0`, `E`, `A`, `B`, `F`, `D`, `M`, `K`, `L` | Suma la estadística al seleccionado |
 | `↑` `↓`                          | Cambia de jugador                   |
 | `Espacio`                        | Play / pausa                        |
 | `←` `→`                          | Retrocede / adelanta 5 s            |
@@ -121,6 +121,7 @@ Cada jugador suma un puntaje con las acciones del partido:
 | Intercepción      | +0,75  |
 | Despeje           | +0,5   |
 | Pase completado   | +0,5   |
+| Disparo bloqueado | +0,25  |
 | Disparo errado    | −0,75  |
 | Pase errado       | −0,5   |
 | Regate fallido    | −0,5   |

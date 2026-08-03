@@ -152,6 +152,7 @@ const RECORD_DEFINITIONS: RecordDefinition[] = [
       totals.intercepciones +
       totals.robosDePelota +
       totals.despejes +
+      totals.disparosBloqueados +
       totals.golesEvitados +
       totals.atajadas,
   },
