@@ -7,7 +7,7 @@ import type { SVGProps } from 'react'
  * library's stroke with custom football glyphs reads as two sets stapled
  * together.
  *
- * Shared grammar, so the sixteen stats scan as one family at 20px:
+ * Shared grammar, so the seventeen stats scan as one family at 20px:
  *   · 24×24 grid, 1.75 stroke, round caps and joins, no fill except the ball
  *   · the ball is always a filled disc — it is the only solid shape
  *   · movement is an arc, obstruction is a straight bar, failure is a cross
@@ -37,7 +37,7 @@ function icon(paths: React.ReactNode) {
   }
 }
 
-/* Stats — the sixteen counted actions. */
+/* Stats — the seventeen counted actions. */
 
 /** Ball leaving on an arc that lands on its target. */
 const PassCompleted = icon(
@@ -101,6 +101,17 @@ const Interception = icon(
     <path d="M6.8 12h5.4" strokeDasharray="2.8 2.4" />
     <path d="M15.4 5.2v13.6" strokeWidth="2.4" />
     <path d="M19.2 8.6 22 12l-2.8 3.4" opacity="0.45" />
+  </>,
+)
+
+/** The same arc as a completed pass, splitting two defenders on the way through. */
+const KeyPass = icon(
+  <>
+    <circle cx="4.2" cy="18.4" r="2.5" fill="currentColor" stroke="none" />
+    <path d="M6.6 17.3C10.6 12.4 14.4 9.4 19 7.6" />
+    <path d="M15.6 6.4 19.6 7.4 18.6 11.4" />
+    <circle cx="10.4" cy="14.4" r="1.5" fill="currentColor" stroke="none" opacity="0.45" />
+    <circle cx="14.6" cy="10.4" r="1.5" fill="currentColor" stroke="none" opacity="0.45" />
   </>,
 )
 
@@ -207,6 +218,7 @@ export const STAT_ICONS: Record<StatId, (props: IconProps) => React.ReactElement
   faltas: Foul,
   despejes: Clearance,
   controlesFallidos: MiscontrolIcon,
+  pasesClave: KeyPass,
 }
 
 /* Interface — same grammar, used for controls rather than actions. */

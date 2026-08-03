@@ -18,7 +18,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "a2": {
         "disparos": 0,
@@ -37,7 +38,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "a3": {
         "disparos": 5,
@@ -56,7 +58,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "a4": {
         "disparos": 0,
@@ -75,7 +78,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "a5": {
         "disparos": 0,
@@ -94,7 +98,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "a6": {
         "disparos": 0,
@@ -113,7 +118,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "a7": {
         "disparos": 0,
@@ -132,7 +138,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "b1": {
         "disparos": 0,
@@ -151,7 +158,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "b2": {
         "disparos": 0,
@@ -170,7 +178,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "b3": {
         "disparos": 5,
@@ -189,7 +198,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "b4": {
         "disparos": 0,
@@ -208,7 +218,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "b5": {
         "disparos": 0,
@@ -227,7 +238,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "b6": {
         "disparos": 0,
@@ -246,7 +258,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       },
       "b7": {
         "disparos": 0,
@@ -265,7 +278,8 @@
         "burradas": 0,
         "faltas": 0,
         "despejes": 0,
-        "controlesFallidos": 0
+        "controlesFallidos": 0,
+        "pasesClave": 0
       }
     },
     "teams": [
@@ -291,7 +305,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "efectividadPases": 0.75,
@@ -323,7 +338,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "efectividadPases": 0.75,
@@ -360,7 +376,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "participacionesEnGol": 2,
@@ -399,7 +416,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "participacionesEnGol": 2,
@@ -438,7 +456,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "participacionesEnGol": 0,
@@ -477,7 +496,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "participacionesEnGol": 0,
@@ -516,7 +536,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "participacionesEnGol": 0,
@@ -555,7 +576,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "participacionesEnGol": 0,
@@ -594,7 +616,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "participacionesEnGol": 0,
@@ -633,7 +656,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "participacionesEnGol": 0,
@@ -672,7 +696,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "participacionesEnGol": 0,
@@ -711,7 +736,8 @@
           "burradas": 0,
           "faltas": 0,
           "despejes": 0,
-          "controlesFallidos": 0
+          "controlesFallidos": 0,
+          "pasesClave": 0
         },
         "metrics": {
           "participacionesEnGol": 0,
@@ -792,6 +818,12 @@
         "names": "Brn, Verde",
         "color": null,
         "value": 6
+      },
+      {
+        "label": "Más Pases Clave",
+        "names": "—",
+        "color": null,
+        "value": 0
       },
       {
         "label": "Más Intercepciones",
@@ -893,5 +925,5 @@
       "text": "Lanza perdió 2 regates."
     }
   ],
-  "csv": "Partido empatado\r\nFecha;2026-07-23\r\n\r\nEquipo;Jugador;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Despejes;Controles Fallidos;Disparos\r\nCaramelo de Polla;Pollo;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Brn;6;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Manu;0;0;3;2;0;0;0;0;0;0;0;0;0;0;0;0;5\r\nCaramelo de Polla;Lanza;0;0;0;0;0;0;0;0;2;2;0;0;0;0;0;0;0\r\nCaramelo de Polla;Joaco;0;0;0;0;0;0;2;0;0;0;0;1;0;0;0;0;0\r\nCaramelo de Polla;Axel;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Gonchi;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Profe;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Verde;6;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Kuki;0;0;3;2;0;0;0;0;0;0;0;0;0;0;0;0;5\r\nCaramelo de Embutido;Lea;0;0;0;0;0;0;0;0;2;2;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Facu;0;0;0;0;0;0;2;0;0;0;0;1;0;0;0;0;0\r\nCaramelo de Embutido;Puya;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Ale;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\n\r\nTOTALES POR EQUIPO\r\nEquipo;Jugadores;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Despejes;Controles Fallidos;Disparos\r\nCaramelo de Polla;7;6;2;3;2;2;0;2;0;2;2;0;1;0;0;0;0;5\r\nCaramelo de Embutido;7;6;2;3;2;2;0;2;0;2;2;0;1;0;0;0;0;5\r\n\r\nEFECTIVIDAD POR EQUIPO\r\nEquipo;% Efectividad Pases;% Disparos al Arco;% Conversión Goles;% Regates;Acciones Defensivas\r\nCaramelo de Polla;75%;60%;40%;50%;3\r\nCaramelo de Embutido;75%;60%;40%;50%;3\r\n\r\nRANKING DE JUGADORES\r\n#;Jugador;Equipo;Puntaje;Goles;Asistencias;G+A;Pases Completados;Pases Errados;% Pases;Disparos;Al Arco;% Al Arco;Regates Exitosos;Regates Fallidos;% Regate;Intercepciones;Robos;Despejes;Goles Evitados;Atajadas;Acciones Defensivas;Controles Fallidos;Burradas;Faltas\r\n1;Pollo;Caramelo de Polla;12,0;2;0;2;0;0;0%;0;0;0%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n2;Profe;Caramelo de Embutido;12,0;2;0;2;0;0;0%;0;0;0%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n3;Facu;Caramelo de Embutido;3,5;0;0;0;0;0;0%;0;0;0%;0;0;0%;2;0;0;0;1;3;0;0;0\r\n4;Joaco;Caramelo de Polla;3,5;0;0;0;0;0;0%;0;0;0%;0;0;0%;2;0;0;0;1;3;0;0;0\r\n5;Kuki;Caramelo de Embutido;3,0;0;0;0;0;0;0%;5;3;60%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n6;Manu;Caramelo de Polla;3,0;0;0;0;0;0;0%;5;3;60%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n7;Brn;Caramelo de Polla;1,5;0;0;0;6;2;75%;0;0;0%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n8;Verde;Caramelo de Embutido;1,5;0;0;0;6;2;75%;0;0;0%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n9;Lanza;Caramelo de Polla;0,5;0;0;0;0;0;0%;0;0;0%;2;2;50%;0;0;0;0;0;0;0;0;0\r\n10;Lea;Caramelo de Embutido;0,5;0;0;0;0;0;0%;0;0;0%;2;2;50%;0;0;0;0;0;0;0;0;0\r\n\r\nANÁLISIS DEL PARTIDO\r\nResultado;Empataron 2 a 2.\r\nFigura del partido;Pollo (Caramelo de Polla) con 12,0 puntos: 2 goles.\r\nPeso en los goles;Pollo participó en 2 de los 2 goles de Caramelo de Polla (100%).\r\nCirculación;Caramelo de Polla fue el equipo que mejor movió la pelota: 75% de pases buenos (6 de 8).\r\nPuntería;Caramelo de Polla remató 5 veces, 60% al arco, y convirtió 2 (40% de conversión).\r\nTrabajo defensivo;Parejo: los dos equipos cortaron 3 jugadas cada uno.\r\nMás seguro con la pelota;Brn completó 75% de sus 8 pases.\r\nMejor definidor;Kuki mandó al arco 60% de sus 5 remates.\r\nMejor gambeta;Lanza ganó 2 de sus 4 regates (50%).\r\nMotor en la marca;Facu cortó 2 jugadas: 2 intercepciones.\r\nBajo los tres palos;Facu se quedó con 1 atajada.\r\nPara mejorar;Lanza perdió 2 regates.\r\n\r\nLÍDERES INDIVIDUALES\r\nCategoría;Jugador;Cantidad\r\nGoleador;Pollo, Profe;2\r\nMáximo Asistidor;—;0\r\nMás Disparos;Manu, Kuki;5\r\nMejor Pasador;Brn, Verde;6\r\nMás Intercepciones;Joaco, Facu;2\r\nMás Robos;—;0\r\nMás Despejes;—;0\r\nMás Regates Exitosos;Lanza, Lea;2\r\nMás Goles Evitados;—;0\r\nMás Atajadas;Joaco, Facu;1\r\nMás Burradas;—;0\r\nMás Faltas;—;0"
+  "csv": "Partido empatado\r\nFecha;2026-07-23\r\n\r\nEquipo;Jugador;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Despejes;Controles Fallidos;Pases Clave;Disparos\r\nCaramelo de Polla;Pollo;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Brn;6;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Manu;0;0;3;2;0;0;0;0;0;0;0;0;0;0;0;0;0;5\r\nCaramelo de Polla;Lanza;0;0;0;0;0;0;0;0;2;2;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Joaco;0;0;0;0;0;0;2;0;0;0;0;1;0;0;0;0;0;0\r\nCaramelo de Polla;Axel;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Polla;Gonchi;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Profe;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Verde;6;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Kuki;0;0;3;2;0;0;0;0;0;0;0;0;0;0;0;0;0;5\r\nCaramelo de Embutido;Lea;0;0;0;0;0;0;0;0;2;2;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Facu;0;0;0;0;0;0;2;0;0;0;0;1;0;0;0;0;0;0\r\nCaramelo de Embutido;Puya;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\nCaramelo de Embutido;Ale;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0\r\n\r\nTOTALES POR EQUIPO\r\nEquipo;Jugadores;Pases Completados;Pases Errados;Disparos al Arco;Disparos Errados;Goles;Asistencias;Intercepción de Pase;Robo de Pelota;Regate Exitoso;Regate Fallido;Goles Evitados;Atajadas;Burradas;Faltas;Despejes;Controles Fallidos;Pases Clave;Disparos\r\nCaramelo de Polla;7;6;2;3;2;2;0;2;0;2;2;0;1;0;0;0;0;0;5\r\nCaramelo de Embutido;7;6;2;3;2;2;0;2;0;2;2;0;1;0;0;0;0;0;5\r\n\r\nEFECTIVIDAD POR EQUIPO\r\nEquipo;% Efectividad Pases;% Disparos al Arco;% Conversión Goles;% Regates;Acciones Defensivas\r\nCaramelo de Polla;75%;60%;40%;50%;3\r\nCaramelo de Embutido;75%;60%;40%;50%;3\r\n\r\nRANKING DE JUGADORES\r\n#;Jugador;Equipo;Puntaje;Goles;Asistencias;G+A;Pases Completados;Pases Errados;% Pases;Pases Clave;Disparos;Al Arco;% Al Arco;Regates Exitosos;Regates Fallidos;% Regate;Intercepciones;Robos;Despejes;Goles Evitados;Atajadas;Acciones Defensivas;Controles Fallidos;Burradas;Faltas\r\n1;Pollo;Caramelo de Polla;12,0;2;0;2;0;0;0%;0;0;0;0%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n2;Profe;Caramelo de Embutido;12,0;2;0;2;0;0;0%;0;0;0;0%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n3;Facu;Caramelo de Embutido;3,5;0;0;0;0;0;0%;0;0;0;0%;0;0;0%;2;0;0;0;1;3;0;0;0\r\n4;Joaco;Caramelo de Polla;3,5;0;0;0;0;0;0%;0;0;0;0%;0;0;0%;2;0;0;0;1;3;0;0;0\r\n5;Kuki;Caramelo de Embutido;3,0;0;0;0;0;0;0%;0;5;3;60%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n6;Manu;Caramelo de Polla;3,0;0;0;0;0;0;0%;0;5;3;60%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n7;Brn;Caramelo de Polla;1,5;0;0;0;6;2;75%;0;0;0;0%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n8;Verde;Caramelo de Embutido;1,5;0;0;0;6;2;75%;0;0;0;0%;0;0;0%;0;0;0;0;0;0;0;0;0\r\n9;Lanza;Caramelo de Polla;0,5;0;0;0;0;0;0%;0;0;0;0%;2;2;50%;0;0;0;0;0;0;0;0;0\r\n10;Lea;Caramelo de Embutido;0,5;0;0;0;0;0;0%;0;0;0;0%;2;2;50%;0;0;0;0;0;0;0;0;0\r\n\r\nANÁLISIS DEL PARTIDO\r\nResultado;Empataron 2 a 2.\r\nFigura del partido;Pollo (Caramelo de Polla) con 12,0 puntos: 2 goles.\r\nPeso en los goles;Pollo participó en 2 de los 2 goles de Caramelo de Polla (100%).\r\nCirculación;Caramelo de Polla fue el equipo que mejor movió la pelota: 75% de pases buenos (6 de 8).\r\nPuntería;Caramelo de Polla remató 5 veces, 60% al arco, y convirtió 2 (40% de conversión).\r\nTrabajo defensivo;Parejo: los dos equipos cortaron 3 jugadas cada uno.\r\nMás seguro con la pelota;Brn completó 75% de sus 8 pases.\r\nMejor definidor;Kuki mandó al arco 60% de sus 5 remates.\r\nMejor gambeta;Lanza ganó 2 de sus 4 regates (50%).\r\nMotor en la marca;Facu cortó 2 jugadas: 2 intercepciones.\r\nBajo los tres palos;Facu se quedó con 1 atajada.\r\nPara mejorar;Lanza perdió 2 regates.\r\n\r\nLÍDERES INDIVIDUALES\r\nCategoría;Jugador;Cantidad\r\nGoleador;Pollo, Profe;2\r\nMáximo Asistidor;—;0\r\nMás Disparos;Manu, Kuki;5\r\nMejor Pasador;Brn, Verde;6\r\nMás Pases Clave;—;0\r\nMás Intercepciones;Joaco, Facu;2\r\nMás Robos;—;0\r\nMás Despejes;—;0\r\nMás Regates Exitosos;Lanza, Lea;2\r\nMás Goles Evitados;—;0\r\nMás Atajadas;Joaco, Facu;1\r\nMás Burradas;—;0\r\nMás Faltas;—;0"
 }

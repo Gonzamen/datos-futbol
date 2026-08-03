@@ -23,6 +23,7 @@ export const SCORE_WEIGHTS: Record<StatId, number> = {
   burradas: -5,
   despejes: 0.75,
   controlesFallidos: -0.75,
+  pasesClave: 1.5,
 }
 
 const WEIGHTED_STAT_IDS = Object.keys(SCORE_WEIGHTS) as StatId[]

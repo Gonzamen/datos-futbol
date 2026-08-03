@@ -91,6 +91,13 @@ export const STAT_DEFINITIONS = [
     tone: 'negative',
     key: 'M',
   },
+  {
+    id: 'pasesClave',
+    label: 'Pases Clave',
+    short: 'Pase clave',
+    tone: 'positive',
+    key: 'K',
+  },
 ] as const
 
 export type StatDefinition = (typeof STAT_DEFINITIONS)[number]
